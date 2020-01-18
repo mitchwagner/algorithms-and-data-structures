@@ -5,5 +5,5 @@
 	path = python
 	url = git@github.com:mitchwagner/algorithms-and-data-structures-python.git
 [submodule "algorithms-and-data-structures-common-lisp"]
-	path = algorithms-and-data-structures-common-lisp
+	path = common-lisp
 	url = git@github.com:mitchwagner/algorithms-and-data-structures-common-lisp.git
