@@ -9,12 +9,12 @@ One can, of course, specify an algorithm at varying levels of
 abstraction.  Consider the following instructions:
 
 1. Insert elements into a structure. Sort the elements in the
-   structure
+   structure.
 
 2. Insert elements into a list. Sort the elements in the list.
 
-3. Insert elements into an array list. Sort the elements using bubble
-   sort.
+3. Insert elements into an array list. Sort the elements using Bubble
+   Sort.
 
 Note that in the foremost statement, we've been very imprecise and can
 say very little about the algorithm, while in the lattermost, we've
@@ -42,7 +42,7 @@ various data structures. For example, an algorithm in this folder may
 require as input something that conforms to the interface of a list,
 without concern as to whether it comes in the form of a linked list or
 an array list. Additionally, the algorithms here may instantiate
-additional data structure for internal bookkeeping, and it may be
+additional data structures for internal bookkeeping, and it may be
 desirable to allow the specification of the implementation to be used.
 
 To offer a concrete example, the `data structures` folder might
@@ -57,4 +57,4 @@ algorithm, which accepts lists as parameters.
 Essentially, if your code interacts directly on top of a data
 structure, it should go in the `data structures` folder. If, instead,
 your code interfacts with data structure only via interfaces, then it
-should be incldued in the `algorithims` folder.
+should be incldued in the `algorithms` folder.
